@@ -21,6 +21,7 @@ backend-capstone-project-meta
     │    ├───reservation/
     │    │       ├───admin.py
     │    │       ├───apps.py
+    │    │       ├───serializers.py
     │    │       ├───models.py
     │    │       ├───permissions.py
     │    │       ├───serializers.py
