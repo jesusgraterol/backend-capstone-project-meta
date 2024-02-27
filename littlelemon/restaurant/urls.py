@@ -1,10 +1,11 @@
 from django.urls import path
-from .views import PlaceholderView
+from .views import index
 
 urlpatterns = [
-  # User & Token Endpoints
-	# These endpoints are exposed through the /auth routes
+  # index
+  path('', index, name = 'index'),
+  path('home/', index, name = 'home'),
 
   # ...
-  path('placeholder', PlaceholderView.as_view()),
+  
 ]
