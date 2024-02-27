@@ -24,14 +24,16 @@ backend-capstone-project-meta
     │    │       ├───static/
     │    │       |      └───...
     │    │       ├───templates/
-    │    │       |      └───...
+    │    │       |      └───index.html
+    │    │       ├───tests/
+    │    │       |      ├───test_models.py
+    │    │       |      └───test_views.py
     │    │       ├───admin.py
     │    │       ├───apps.py
     │    │       ├───serializers.py
     │    │       ├───models.py
     │    │       ├───permissions.py
     │    │       ├───serializers.py
-    │    │       ├───tests.py
     │    │       ├───urls.py
     │    │       └───views.py
     │    └───manage.py
