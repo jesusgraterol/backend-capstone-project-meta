@@ -12,13 +12,13 @@ This repository serves as my personal submission for the [Back-End Capstone Proj
 ```
 backend-capstone-project-meta
     │
-    LittleLemon/
-    │    ├───LittleLemon/
+    littlelemon/
+    │    ├───littlelemon/
     │    │       ├───asgi.py
     │    │       ├───settings.py
     │    │       ├───urls.py
     │    │       └───wsgi.py
-    │    ├───LittleLemonAPI/
+    │    ├───reservation/
     │    │       ├───admin.py
     │    │       ├───apps.py
     │    │       ├───models.py
