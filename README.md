@@ -18,7 +18,13 @@ backend-capstone-project-meta
     │    │       ├───settings.py
     │    │       ├───urls.py
     │    │       └───wsgi.py
-    │    ├───reservation/
+    │    ├───restaurant/
+    │    │       ├───migrations/
+    │    │       |      └───...
+    │    │       ├───static/
+    │    │       |      └───...
+    │    │       ├───templates/
+    │    │       |      └───...
     │    │       ├───admin.py
     │    │       ├───apps.py
     │    │       ├───serializers.py
@@ -40,7 +46,7 @@ backend-capstone-project-meta
 ## Getting Started
 
 ```bash
-$ cd backend-capstone-project-meta/@TODO
+$ cd backend-capstone-project-meta/littlelemon
 
 $ pipenv shell
 
@@ -79,6 +85,18 @@ $ python3 manage.py runserver
 
 
 
+## Customer Credentials
+
+**Username:** `customer`
+
+**Email:** `customer@gmail.com`
+
+**Password:** `cust@123!`
+
+
+
+
+
 ## Endpoints
 
 [Postman Workspace](https://www.postman.com/jesusgraterol/workspace/backend-capstone-project)
@@ -88,10 +106,10 @@ $ python3 manage.py runserver
 
 ## Grading Criteria
 
-1. [ ] Does the web application use Django to serve static HTML content?
-2. [ ] Has the learner committed the project to a Git repository?
-3. [ ] Does the application connect the backend to a MySQL database?
-4. [ ] Are the menu and table booking APIs implemented?
-5. [ ] Is the application set up with user registration and authentication?
-6. [ ] Does the application contain unit tests?
-7. [ ] Can the API be tested with the Insomnia REST client?
+1. [x] Does the web application use Django to serve static HTML content?
+2. [x] Has the learner committed the project to a Git repository?
+3. [x] Does the application connect the backend to a MySQL database?
+4. [x] Are the menu and table booking APIs implemented?
+5. [x] Is the application set up with user registration and authentication?
+6. [x] Does the application contain unit tests?
+7. [x] Can the API be tested with the Insomnia REST client?
